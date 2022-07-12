@@ -1,6 +1,6 @@
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-    host: 'ssh -i "AWSDemo.pem" ubuntu@ec2-54-174-250-183.compute-1.amazonaws.com',
+    host: 'database-1.cqfpkqfsbguf.us-east-1.rds.amazonaws.com',
     port: '3000',
     user: 'admin',
     password: 'password',
